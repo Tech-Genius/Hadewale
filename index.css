@@ -1,0 +1,124 @@
+.background{
+    background-image: url(Images/software-developer-6521720_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.background_contact{
+    background-image: url(Images/pexels-josh-sorenson-1714208.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.background_registration{
+    background-image: url(Images/pexels-caio-56759.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.background_login{
+    background-image: url(Images/pexels-bich-tran-669996.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color:  rgba(31, 2, 44, 0.658);
+color: white;
+width: 100%;
+position: fixed;
+
+}
+.logo{
+    margin-left: 5%;
+}
+.logo h1{
+font-family: fantasy;
+font-weight: lighter;
+}
+
+.menu_items ul{
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    margin-right: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 18px 28px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+ background-color:  rgba(167, 23, 233, 0.767);
+ border: none;
+ cursor: pointer;
+}
+button:hover{
+    color:  rgba(167, 23, 233, 0.767);
+    background-color: white;
+    transition: 0.5s;
+}
+.menu_items ul li a{
+   color: white; 
+   font-size: 17px;
+   padding: 0px 20px;
+}
+li{
+    padding-top: 15px;
+}
+
+.intro{
+    margin: 100px 50px;
+    width: fit-content;
+    float: right;
+    color: white;
+    background-color: rgba(10, 0, 0, 0.753);
+    padding: 30px 70px;
+    border-radius: 10px;
+}
+.intro h3{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro_others{
+    margin: 150px 50px;
+    width: fit-content;
+    float: left;
+    color: white;
+    background-color: rgba(10, 0, 0, 0.753);
+    padding: 30px 70px;
+    border-radius: 10px;
+}
+.intro_others h3{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.about_contents{
+    display: flex;
+    padding: 50px 20px;
+    box-shadow: 3px 3px 8px grey;
+    border-radius: 10px;
+    margin: 100px 5%;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+ margin-left: 100px;
+}
+.about h3{
+    font-size:  40px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+}
